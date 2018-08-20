@@ -1,0 +1,21 @@
+{
+  "name": "pdunode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "powercycle.js",
+  "scripts": {
+    "start": "node powercycle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "5.0.2",
+    "command-line-usage": "5.0.5",
+    "net-snmp": "1.1.13"
+  },
+  "pkg": {
+    "assets": "node_modules/**/*"
+  },
+  "help": "pkg -t host powercycle.js"
+}
